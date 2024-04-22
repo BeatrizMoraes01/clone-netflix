@@ -64,10 +64,11 @@
     width: 350px;
     height: 390px;
     background-color: var(--background_card);
-    border-radius: 10px;
+    border-radius: 30px;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
 }
+
 .item__img--destaque{
     width: 15vw;
     display: flex;
