@@ -1,0 +1,36 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 2em;
+}
+.cabecalho_img{
+    width: 128px;
+    height: 30;
+}
+.cabecalho--menu{
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+    color: var(--color-font);
+}
+
+.cabecalho--buttons{
+    display: flex;
+    gap: 2em;
+    align-items: baseline;
+    font-size: 18px;
+    color: var(--color-font);
+}
+.cabecalho--button_ID{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.cabecalho--buttons__masuk{
+    background: var(--background_button);
+    padding: 1em;
+    border-radius: 1em;
+}
+.cabecalho--buttons__masuk:hover{
+    box-shadow: var(--sombra_button);
+}
