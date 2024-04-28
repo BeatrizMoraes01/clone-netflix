@@ -1,0 +1,62 @@
+.list-links{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+    font-family: var(--font-secundaria);
+}
+.list-item-links1{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.netflix-logo--{
+    width: 150px;
+}
+.item-links2--{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tile-item-links2--{
+    color: #FEF4F4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+}
+.list-items-list-links2--{
+    color: #E3E0E0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-location{
+    display: flex;
+    gap: 16px;
+}
+.list-social{
+    display: flex;
+    gap: 15px;
+}
+
+.rodape{
+    font-family: var(--font-secundaria);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.adicionais{
+    font-family: var(--font-secundaria);
+    color: #FFFFFF;
+    display: flex;
+    gap: 20px;
+}

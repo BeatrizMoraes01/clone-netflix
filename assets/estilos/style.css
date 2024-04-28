@@ -2,6 +2,7 @@
 @import url(main.css);
 @import url(cardsPayment.css);
 @import url(more-information.css);
+@import url(links-utility.css);
 
 :root{
     --font: 'Volkhov', sans-serif;
