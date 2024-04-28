@@ -1,6 +1,75 @@
-.listCard{
+.payment-destaque{
     display: flex;
-    justify-content: space-between;
-    margin-top: 20%;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 180px;
+}
+
+.payment-title{
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+}
+
+.cards-payment{
+    display: flex;
+    gap: 100px;
+}
+.item-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--background_card);
+    padding: 30px;
+    border-radius: 20px;
+}
+.item-payment:hover, .btn-payment{
+    border: 2px solid var(--color_branco-bege);
+}
+.item-payment:hover .btn-payment{
+    background: var(--background_button);
+    box-shadow: var(--sombra_button);
+    border: none;
+}
+.item-title{
+    font-size: 20px;
+    font-family: var(--font-secundaria);
+}
+.value-payment{
+    font-size: 16px;
+    font-family: var(--font-secundaria);
+}
+.value-payment span{
+    font-size: 32px;
+    color: #DB202C;
+    font-weight: 500;
+}
+#list-benefic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+}
+.item-benefics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: var(--font-secundaria);
+}
+.no-check{
+    margin-left: 33.5px;
+}
+.btn-payment{
+    border: 2px solid #FEF4F4;
+    border-radius: 10px;
+    font-family: var(--font-secundaria);
+    font-size: 18px;
+    padding: 15px;
 }
